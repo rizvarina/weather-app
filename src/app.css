@@ -1,0 +1,33 @@
+.app {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: #fefefe;
+}
+
+.app form {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  background: #6060ff;
+  border-radius: 3px;
+  padding: 20px;
+}
+
+.app form input {
+  background: #fff;
+  border: none;
+  padding: 5px 10px;
+  display: block;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.app form button {
+  display: block;
+  width: 100%;
+}
